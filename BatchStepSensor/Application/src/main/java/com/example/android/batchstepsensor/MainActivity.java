@@ -17,6 +17,7 @@
 package com.example.android.batchstepsensor;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
@@ -30,9 +31,13 @@ import com.example.android.batchstepsensor.cardstream.CardStreamState;
 import com.example.android.batchstepsensor.cardstream.OnCardClickListener;
 import com.example.android.batchstepsensor.cardstream.StreamRetentionFragment;
 
+import java.util.ArrayList;
+
 public class MainActivity extends SampleActivityBase implements CardStream {
     public static final String TAG = "MainActivity";
     public static final String FRAGTAG = "BatchStepSensorFragment";
+    private static ArrayList<Integer> buffer = new ArrayList<>();
+    private Handler m_handler = new Handler();
 
     private CardStreamFragment mCardStreamFragment;
 
@@ -41,8 +46,21 @@ public class MainActivity extends SampleActivityBase implements CardStream {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.println("^^^Updated version");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+         /*
+              Set up asynchronous thread.  This thread will extract data from the buffer, and
+              use it to update the UI graph, as well as send it to the cloud.
+             */
+        DataAgg bufferToCloud = new DataAgg();
+        bufferToCloud.setM_handler(m_handler);
+        //bufferToCloud.setM_imageView(m_imageView);
+        //bufferToCloud.setM_canvas(m_canvas);
+        //bufferToCloud.setM_paint(m_paint);
+        m_handler.post(bufferToCloud);
 
         FragmentManager fm = getSupportFragmentManager();
         BatchStepSensorFragment fragment =
@@ -92,4 +110,12 @@ public class MainActivity extends SampleActivityBase implements CardStream {
         CardStreamState state = getCardStream().dumpState();
         mRetentionFragment.storeCardStream(state);
     }
+
+
+    public static ArrayList<Integer> getBuffer()
+    {
+        return buffer;
+    }
+
+
 }

@@ -325,6 +325,14 @@ public class BatchStepSensorFragment extends Fragment implements OnCardClickList
                 // This means we need to count steps ourselves
 
                 mSteps += event.values.length;
+                if(MainActivity.getBuffer().size() < 100) {
+                    System.out.println("^^^adding to buffer");
+                    MainActivity.getBuffer().add(event.values.length);
+                }else
+                {
+                    System.out.println("^^^buffer is full :(");
+                }
+
 
                 // Update the card with the latest step count
                 getCardStream().getCard(CARD_COUNTING)
@@ -348,6 +356,7 @@ public class BatchStepSensorFragment extends Fragment implements OnCardClickList
                 }
 
                 // Calculate steps taken based on first counter value received.
+                System.out.println("Heard: " + event.values[0]);
                 mSteps = (int) event.values[0] - mCounterSteps;
 
                 // Add the number of steps previously taken, otherwise the counter would start at 0.

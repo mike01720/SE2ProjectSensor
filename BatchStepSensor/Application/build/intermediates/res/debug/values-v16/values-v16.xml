@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Kids/AndroidStudioProjects/BatchStepSensor/Application/src/main/res/values-v16/styles.xml -->
+    <!-- From: file:/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/src/main/res/values-v16/styles.xml -->
     <eat-comment/>
     <style name="CardContent" parent="@style/CardContentBase">
         <item name="android:fontFamily">sans-serif-light</item>

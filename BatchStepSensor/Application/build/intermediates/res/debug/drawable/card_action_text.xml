@@ -4,4 +4,4 @@
     <item android:state_pressed="true" android:color="@color/card_action_inverted" />
     <item android:state_focused="true" android:color="@color/card_action_inverted" />
     <item android:color="@color/card_action" />
-</selector><!-- From: file:/C:/Users/Kids/AndroidStudioProjects/BatchStepSensor/Application/src/main/res/drawable/card_action_text.xml -->
+</selector><!-- From: file:/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/src/main/res/drawable/card_action_text.xml -->

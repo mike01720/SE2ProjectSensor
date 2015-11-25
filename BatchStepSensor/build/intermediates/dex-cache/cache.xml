@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
+        jar="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
-        <dex dex="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\pre-dexed\debug\classes-ba452becb6e5338ecbf8a78bc250f9666f36559d.jar" />
+        <dex dex="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/pre-dexed/debug/classes-86f206520e11e7056a15f118d63483cf879e67f6.jar" />
     </item>
     <item
-        jar="C:\Users\Kids\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-6eaadf2eafa290527ce00f8542733d8c67ba75a4.jar" />
-    </item>
-    <item
-        jar="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\classes.jar"
+        jar="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
-        <dex dex="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\pre-dexed\debug\classes-86b7ca76e8e5bddb90960c6835cd5fedaae7bfba.jar" />
+        <dex dex="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/pre-dexed/debug/classes-d3bf6b5a3641c1a4467629066e0119cb6433d61f.jar" />
     </item>
     <item
-        jar="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\pre-dexed\debug\classes-612ca247b9e61ba48f6a803c49559fe48f92e60d.jar" />
-    </item>
-    <item
-        jar="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-7e9cb9419c8d9a09aff6a4a21ecc46a285424cc5.jar" />
-    </item>
-    <item
-        jar="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jar="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.0/jars/libs/internal_impl-23.1.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
-        <dex dex="C:\Users\Kids\AndroidStudioProjects\BatchStepSensor\Application\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-813fcefe40d6104a31c8fa8f65f20dedc85a6f4c.jar" />
+        <dex dex="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-7e139dc35d6d9af24e7a65b72cf45853cd737c59.jar" />
+    </item>
+    <item
+        jar="/home/csrobot/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-a7346654cb7e0f61cbc8b0b2d40254064701ac2c.jar" />
+    </item>
+    <item
+        jar="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/pre-dexed/debug/classes-10bf350ea9f94dd24ab6766b2cba7bf7ff901db3.jar" />
+    </item>
+    <item
+        jar="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-1d79c7830618889b368ad829179c07732cc2f3f1.jar" />
     </item>
 
 </items>

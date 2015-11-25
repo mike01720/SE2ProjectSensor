@@ -24,4 +24,4 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:layout="@layout/cardstream"/>
-<!-- From: file:/C:/Users/Kids/AndroidStudioProjects/BatchStepSensor/Application/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/src/main/res/layout/activity_main.xml -->

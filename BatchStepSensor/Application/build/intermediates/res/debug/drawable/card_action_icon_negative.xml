@@ -3,4 +3,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/ic_cardaction_negative_pressed" android:state_pressed="true" />
     <item android:drawable="@drawable/ic_cardaction_negative" />
-</selector><!-- From: file:/C:/Users/Kids/AndroidStudioProjects/BatchStepSensor/Application/src/main/res/drawable/card_action_icon_negative.xml -->
+</selector><!-- From: file:/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/src/main/res/drawable/card_action_icon_negative.xml -->

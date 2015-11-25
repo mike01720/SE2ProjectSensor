@@ -4,4 +4,4 @@
     <item android:drawable="@color/card_action_negative" android:state_pressed="true" />
     <item android:drawable="@color/card_action_negative_focused" android:state_focused="true" />
     <item android:drawable="@color/card_action_item_bg" />
-</selector><!-- From: file:/C:/Users/Kids/AndroidStudioProjects/BatchStepSensor/Application/src/main/res/drawable/card_action_bg_negative.xml -->
+</selector><!-- From: file:/home/csrobot/AndroidStudioProjects/SE2ProjectSensor/BatchStepSensor/Application/src/main/res/drawable/card_action_bg_negative.xml -->
